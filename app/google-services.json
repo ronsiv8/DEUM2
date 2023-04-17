@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "680557555596",
+    "firebase_url": "https://deum-4666f-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "deum-4666f",
+    "storage_bucket": "deum-4666f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680557555596:android:51fd1e9550290b9288b0a9",
+        "android_client_info": {
+          "package_name": "com.example.deum2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680557555596-385l5rg6ger8dma26j2ik6jlobct417m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaQLzbe7MkPihZMrNeKFN6h1tsW8ugIZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680557555596-385l5rg6ger8dma26j2ik6jlobct417m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
