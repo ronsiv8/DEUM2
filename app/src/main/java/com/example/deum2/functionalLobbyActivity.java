@@ -196,6 +196,10 @@ public class functionalLobbyActivity extends AppCompatActivity {
                             Collections.shuffle(Arrays.asList(players));
                             // put the players in the database
                             mDatabase.child("Games").child(code).child("TurnOrder").setValue(Arrays.asList(players));
+                            // put the players in the database in Score, which is Username: 0 (score 0 for each player)
+                            for (String player : players) {
+                                mDatabase.child("Games").child(code).child("Score").child(player).setValue(0);
+                            }
                         }
                     }
                 }

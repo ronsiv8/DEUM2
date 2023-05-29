@@ -16,18 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/passButton"
-        android:layout_width="394dp"
-        android:layout_height="191dp"
-        android:text="PASS"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/_dynamic"
-        app:layout_constraintTop_toTopOf="@+id/_dynamic"
-        app:layout_constraintVertical_bias="1.0" />
-
     <TextView
         android:id="@+id/NotificationText"
         android:layout_width="wrap_content"
@@ -35,9 +23,19 @@
         android:text="YOU'RE NEXT!"
         android:textSize="50sp"
         android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/passButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thematicTitle" />
+
+    <Button
+        android:id="@+id/ReflexButton"
+        android:layout_width="192dp"
+        android:layout_height="147dp"
+        android:text="CLICK!"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/thematicTitle" />
 
